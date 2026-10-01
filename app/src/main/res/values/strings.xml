@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cálculo Aposentadoria</string>
+    <string name="wallace_costa">Wallace Costa</string>
+    <string name="calcular">Calcular</string>
+    <string name="requerido">Requerido</string>
+
+    <string-array name="opcoes_genero">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+</resources>
