@@ -9,7 +9,7 @@
     android:background="@color/white"
     android:padding="16dp"
     tools:context=".MainActivity">
-
+ <!-- Seleciona o gênero -->
     <Spinner
         android:id="@+id/spinnergenero"
         android:layout_width="0dp"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+<!-- Campo para informar a idade -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tiIdade"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnergenero">
-
+<!-- Entrada da idade -->
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edIdade"
             android:layout_width="match_parent"
@@ -46,7 +46,7 @@
             android:maxLength="3" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
+ <!-- Botão para realizar o cálculo -->
     <Button
         android:id="@+id/button"
         android:layout_width="0dp"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tiIdade" />
-
+ <!-- Mostra o resultado do cálculo -->
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
-
+ <!-- Mostra o nome do usuário -->
     <TextView
         android:id="@+id/txtnome"
         android:layout_width="wrap_content"
